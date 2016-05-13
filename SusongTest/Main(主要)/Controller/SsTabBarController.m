@@ -41,19 +41,6 @@
     
     [self.tabBar addSubview:newTabbar];
     
-    //设置导航栏样式
-    UINavigationBar *naviBar = [UINavigationBar appearance];
-    [naviBar setBackgroundImage:[UIImage imageNamed:@"hk_bg2"] forBarMetrics:UIBarMetricsDefault];
-    //设置字体
-    NSMutableDictionary *attibite = [NSMutableDictionary dictionary];
-    attibite[NSFontAttributeName] = [UIFont systemFontOfSize:20];
-    attibite[NSForegroundColorAttributeName] = [UIColor whiteColor];
-    [naviBar setTitleTextAttributes:attibite];
-    /**
-     *  导航栏按钮的颜色
-     */
-    naviBar.tintColor = [UIColor whiteColor];
-    
     
     
 }

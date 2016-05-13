@@ -27,7 +27,7 @@
 
 -(void)messageItemClick{
     SsMessageController *messageVc = [[SsMessageController alloc] init];
-    messageVc.hidesBottomBarWhenPushed = YES;
+//    messageVc.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:messageVc animated:YES];
     
 }

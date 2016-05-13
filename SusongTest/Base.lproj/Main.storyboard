@@ -27,7 +27,7 @@
         <!--Item-->
         <scene sceneID="Q9H-dL-TBR">
             <objects>
-                <navigationController id="g5W-wz-wc8" sceneMemberID="viewController">
+                <navigationController id="g5W-wz-wc8" customClass="SsNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="1mw-7L-GCy"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nV8-DJ-ddi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -95,10 +95,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="wcC-ez-d63">
-                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wcC-ez-d63" id="LBB-lb-dl9">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -117,7 +117,7 @@
         <!--Item-->
         <scene sceneID="ap9-FD-LGB">
             <objects>
-                <navigationController id="Ttj-RC-wsD" sceneMemberID="viewController">
+                <navigationController id="Ttj-RC-wsD" customClass="SsNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="1fZ-pl-vY8"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DOS-QM-RVp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -134,7 +134,7 @@
         <!--Item-->
         <scene sceneID="OAf-ai-k87">
             <objects>
-                <navigationController id="0ID-T9-UZW" sceneMemberID="viewController">
+                <navigationController id="0ID-T9-UZW" customClass="SsNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="h5F-yI-liR"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kwX-1a-Qca">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
