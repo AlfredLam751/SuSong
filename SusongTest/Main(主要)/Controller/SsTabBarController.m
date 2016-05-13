@@ -9,6 +9,7 @@
 #import "SsTabBarController.h"
 #import "SsTabBar.h"
 #import "SsMessageController.h"
+#import "SVProgressHUD.h"
 
 @interface SsTabBarController ()
 
