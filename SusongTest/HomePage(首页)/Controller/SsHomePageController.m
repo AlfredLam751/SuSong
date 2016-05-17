@@ -8,8 +8,9 @@
 
 #import "SsHomePageController.h"
 #import "SsMessageController.h"
+#import "MJBannnerPlayer.h"
 
-@interface SsHomePageController ()
+@interface SsHomePageController ()<MJBannnerPlayerDeledage>
 
 @end
 
@@ -21,30 +22,48 @@
     
     UIBarButtonItem *messageItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"hk_clock2.png"] style:UIBarButtonItemStylePlain target:self action:@selector(messageItemClick)];
     self.navigationItem.rightBarButtonItem = messageItem;
+    [self prepareUI];
     
+    UIImage *imageOne = [UIImage imageWithData:[NSData dataWithContentsOfURL: [NSURL URLWithString:@"http://devsusong.iwshop.cn/uploads/userhead/3ce/3ce32fc342844897aeccf35dc5c6c37b.jpg"]]];
+    UIImage *imageTwo = [UIImage imageWithData:[NSData dataWithContentsOfURL: [NSURL URLWithString:@"http://devsusong.iwshop.cn/uploads/userhead/f5e/f5ebc5737215f925c0ad1ea0c9b2c644.jpg"]]];
+    NSArray *imageArray = @[imageOne,imageTwo];
+
+    
+    
+    [MJBannnerPlayer initWithUrlArray:imageArray addTarget:self delegate:self withSize:CGRectMake(0, 64, self.view.frame.size.width, 195) withTimeInterval:2.0f];
     
 }
 
+/**
+ *  界面的准备
+ */
+-(void)prepareUI{
+    
+}
+
+/**
+ *  图片轮播期的点击
+ *
+ *  @param bannerPlayer <#bannerPlayer description#>
+ *  @param index        <#index description#>
+ */
+-(void)MJBannnerPlayer:(UIView *)bannerPlayer didSelectedIndex:(NSInteger)index{
+    NSLog(@"%ld",index);
+}
+
+/**
+ *  导航栏点击
+ */
 -(void)messageItemClick{
     SsMessageController *messageVc = [[SsMessageController alloc] init];
-//    messageVc.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:messageVc animated:YES];
     
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
