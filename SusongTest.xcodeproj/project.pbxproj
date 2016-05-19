@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3B01D14B1CEAF22E00380B7F /* MJBannnerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B01D14A1CEAF22E00380B7F /* MJBannnerPlayer.m */; };
 		3B1C5B3D1CE56E32008F1623 /* SsMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C5B3C1CE56E32008F1623 /* SsMessageController.m */; };
-		3B1C5B401CE57226008F1623 /* SsHomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C5B3F1CE57226008F1623 /* SsHomePageController.m */; };
 		3B3F1C191CE620FA00145725 /* SsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F1C181CE620FA00145725 /* SsNavigationController.m */; };
 		3BD925091CE37892009AD424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD925081CE37892009AD424 /* main.m */; };
 		3BD925121CE37892009AD424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD925101CE37892009AD424 /* Main.storyboard */; };
@@ -46,8 +45,6 @@
 		3B01D14D1CEB302300380B7F /* SusongTest-pch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SusongTest-pch.h"; sourceTree = "<group>"; };
 		3B1C5B3B1CE56E32008F1623 /* SsMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsMessageController.h; sourceTree = "<group>"; };
 		3B1C5B3C1CE56E32008F1623 /* SsMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsMessageController.m; sourceTree = "<group>"; };
-		3B1C5B3E1CE57226008F1623 /* SsHomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsHomePageController.h; sourceTree = "<group>"; };
-		3B1C5B3F1CE57226008F1623 /* SsHomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsHomePageController.m; sourceTree = "<group>"; };
 		3B3F1C171CE620FA00145725 /* SsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsNavigationController.h; sourceTree = "<group>"; };
 		3B3F1C181CE620FA00145725 /* SsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsNavigationController.m; sourceTree = "<group>"; };
 		3BD925041CE37892009AD424 /* SusongTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SusongTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +115,91 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		3B730B7F1CEDBBC6008D7721 /* Common(通用) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Common(通用)";
+			sourceTree = "<group>";
+		};
+		3B730B801CEDBBC6008D7721 /* Order(抢单) */ = {
+			isa = PBXGroup;
+			children = (
+				3B730B811CEDBBC6008D7721 /* Controller */,
+				3B730B821CEDBBC6008D7721 /* Model */,
+				3B730B831CEDBBC6008D7721 /* Other */,
+				3B730B841CEDBBC6008D7721 /* View */,
+			);
+			path = "Order(抢单)";
+			sourceTree = "<group>";
+		};
+		3B730B811CEDBBC6008D7721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B730B821CEDBBC6008D7721 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B730B831CEDBBC6008D7721 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3B730B841CEDBBC6008D7721 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B730B851CEDBBC6008D7721 /* Personal(个人中心) */ = {
+			isa = PBXGroup;
+			children = (
+				3B730B861CEDBBC6008D7721 /* Controller */,
+				3B730B871CEDBBC6008D7721 /* Model */,
+				3B730B881CEDBBC6008D7721 /* Other */,
+				3B730B891CEDBBC6008D7721 /* View */,
+			);
+			path = "Personal(个人中心)";
+			sourceTree = "<group>";
+		};
+		3B730B861CEDBBC6008D7721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B730B871CEDBBC6008D7721 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B730B881CEDBBC6008D7721 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3B730B891CEDBBC6008D7721 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3BD924FB1CE37892009AD424 = {
 			isa = PBXGroup;
 			children = (
@@ -144,9 +226,9 @@
 			isa = PBXGroup;
 			children = (
 				3BD9254C1CE381F8009AD424 /* Main(主要) */,
-				3BD9253A1CE37A77009AD424 /* HomePage(首页) */,
-				3BD925411CE37A77009AD424 /* Order(抢单) */,
-				3BD925461CE37A77009AD424 /* Personal(个人中心) */,
+				3B730B7F1CEDBBC6008D7721 /* Common(通用) */,
+				3B730B801CEDBBC6008D7721 /* Order(抢单) */,
+				3B730B851CEDBBC6008D7721 /* Personal(个人中心) */,
 				3BD925071CE37892009AD424 /* Supporting Files */,
 			);
 			path = SusongTest;
@@ -180,125 +262,6 @@
 				3BD9252E1CE37892009AD424 /* Info.plist */,
 			);
 			path = SusongTestUITests;
-			sourceTree = "<group>";
-		};
-		3BD9253A1CE37A77009AD424 /* HomePage(首页) */ = {
-			isa = PBXGroup;
-			children = (
-				3BD9253B1CE37A77009AD424 /* Controller */,
-				3BD9253C1CE37A77009AD424 /* Model */,
-				3BD9253D1CE37A77009AD424 /* Other */,
-				3BD925401CE37A77009AD424 /* View */,
-			);
-			path = "HomePage(首页)";
-			sourceTree = "<group>";
-		};
-		3BD9253B1CE37A77009AD424 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3B1C5B3E1CE57226008F1623 /* SsHomePageController.h */,
-				3B1C5B3F1CE57226008F1623 /* SsHomePageController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3BD9253C1CE37A77009AD424 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3BD9253D1CE37A77009AD424 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		3BD925401CE37A77009AD424 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		3BD925411CE37A77009AD424 /* Order(抢单) */ = {
-			isa = PBXGroup;
-			children = (
-				3BD925421CE37A77009AD424 /* Controller */,
-				3BD925431CE37A77009AD424 /* Model */,
-				3BD925441CE37A77009AD424 /* Other */,
-				3BD925451CE37A77009AD424 /* View */,
-			);
-			path = "Order(抢单)";
-			sourceTree = "<group>";
-		};
-		3BD925421CE37A77009AD424 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3BD925431CE37A77009AD424 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3BD925441CE37A77009AD424 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		3BD925451CE37A77009AD424 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		3BD925461CE37A77009AD424 /* Personal(个人中心) */ = {
-			isa = PBXGroup;
-			children = (
-				3BD925471CE37A77009AD424 /* Controller */,
-				3BD925481CE37A77009AD424 /* Model */,
-				3BD925491CE37A77009AD424 /* Other */,
-				3BD9254A1CE37A77009AD424 /* View */,
-			);
-			path = "Personal(个人中心)";
-			sourceTree = "<group>";
-		};
-		3BD925471CE37A77009AD424 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3BD925481CE37A77009AD424 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3BD925491CE37A77009AD424 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		3BD9254A1CE37A77009AD424 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		3BD9254C1CE381F8009AD424 /* Main(主要) */ = {
@@ -550,7 +513,6 @@
 				3BD925531CE381F8009AD424 /* AppDelegate.m in Sources */,
 				3BD925591CE38455009AD424 /* SsTabBar.m in Sources */,
 				3B3F1C191CE620FA00145725 /* SsNavigationController.m in Sources */,
-				3B1C5B401CE57226008F1623 /* SsHomePageController.m in Sources */,
 				3B1C5B3D1CE56E32008F1623 /* SsMessageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
