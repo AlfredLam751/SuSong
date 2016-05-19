@@ -28,7 +28,11 @@
     
     UIBarButtonItem *cleanItem = [[UIBarButtonItem alloc] initWithTitle:@"清空" style:UIBarButtonItemStylePlain target:self action:@selector(cleanMessage)];
     self.navigationItem.rightBarButtonItem = cleanItem;
-    
+//    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] init];
+//     [backItem setImage:[UIImage imageNamed:@"hk_back_white"]];
+//    
+//    self.navigationItem.leftBarButtonItem = backItem;
+//    
     
 }
 

@@ -19,15 +19,21 @@
         //设置导航栏样式
         UINavigationBar *naviBar = [UINavigationBar appearance];
         [naviBar setBackgroundImage:[UIImage imageNamed:@"hk_bg2"] forBarMetrics:UIBarMetricsDefault];
+        
+        [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60) forBarMetrics:UIBarMetricsDefault];
+
         //设置字体
         NSMutableDictionary *attibite = [NSMutableDictionary dictionary];
         attibite[NSFontAttributeName] = [UIFont systemFontOfSize:20];
         attibite[NSForegroundColorAttributeName] = [UIColor whiteColor];
         [naviBar setTitleTextAttributes:attibite];
+  
         /**
          *  导航栏按钮的颜色
          */
         naviBar.tintColor = [UIColor whiteColor];
+                
+        
     }
 }
 
@@ -45,23 +51,11 @@
 
 /**
  *  拦截push操作
- *
- *  @param viewController <#viewController description#>
- *  @param animated       <#animated description#>
  */
 -(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
     viewController.hidesBottomBarWhenPushed = YES;
     [super pushViewController:viewController animated:animated];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

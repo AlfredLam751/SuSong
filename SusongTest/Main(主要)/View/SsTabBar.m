@@ -23,8 +23,6 @@
     self.selectButton.selected = NO;
     self.selectButton = btn;
     self.selectButton.selected = YES;
-    
-    NSLog(@"%ld",btn.tag);
     if (self.selectBtn) {
         self.selectBtn(btn.tag);
     }

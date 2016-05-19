@@ -43,6 +43,7 @@
 /* Begin PBXFileReference section */
 		3B01D1491CEAF22E00380B7F /* MJBannnerPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJBannnerPlayer.h; sourceTree = "<group>"; };
 		3B01D14A1CEAF22E00380B7F /* MJBannnerPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJBannnerPlayer.m; sourceTree = "<group>"; };
+		3B01D14D1CEB302300380B7F /* SusongTest-pch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SusongTest-pch.h"; sourceTree = "<group>"; };
 		3B1C5B3B1CE56E32008F1623 /* SsMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsMessageController.h; sourceTree = "<group>"; };
 		3B1C5B3C1CE56E32008F1623 /* SsMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsMessageController.m; sourceTree = "<group>"; };
 		3B1C5B3E1CE57226008F1623 /* SsHomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsHomePageController.h; sourceTree = "<group>"; };
@@ -158,6 +159,7 @@
 				3BD925131CE37892009AD424 /* Assets.xcassets */,
 				3BD925181CE37892009AD424 /* Info.plist */,
 				3BD925081CE37892009AD424 /* main.m */,
+				3B01D14D1CEB302300380B7F /* SusongTest-pch.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -685,6 +687,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SusongTest/SusongTest-pch.h";
 				INFOPLIST_FILE = SusongTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -700,6 +703,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SusongTest/SusongTest-pch.h";
 				INFOPLIST_FILE = SusongTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

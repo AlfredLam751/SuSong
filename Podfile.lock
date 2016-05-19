@@ -20,14 +20,17 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - PureLayout (3.0.1)
   - SVProgressHUD (2.0-beta)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
+  - PureLayout (~> 3.0.1)
   - SVProgressHUD (~> 2.0-beta)
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
   SVProgressHUD: c83337f10ed32d701c423d519059a249973c8662
 
 COCOAPODS: 0.39.0
