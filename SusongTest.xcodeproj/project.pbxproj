@@ -10,6 +10,9 @@
 		3B01D14B1CEAF22E00380B7F /* MJBannnerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B01D14A1CEAF22E00380B7F /* MJBannnerPlayer.m */; };
 		3B1C5B3D1CE56E32008F1623 /* SsMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C5B3C1CE56E32008F1623 /* SsMessageController.m */; };
 		3B3F1C191CE620FA00145725 /* SsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F1C181CE620FA00145725 /* SsNavigationController.m */; };
+		3B730B931CEDBC88008D7721 /* SsHomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B730B921CEDBC88008D7721 /* SsHomePageController.m */; };
+		3B730B9F1CEEA2E6008D7721 /* SsOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B730B9D1CEEA2E6008D7721 /* SsOrderViewController.m */; };
+		3B730BA01CEEA2E6008D7721 /* SsOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B730B9E1CEEA2E6008D7721 /* SsOrderViewController.xib */; };
 		3BD925091CE37892009AD424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD925081CE37892009AD424 /* main.m */; };
 		3BD925121CE37892009AD424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD925101CE37892009AD424 /* Main.storyboard */; };
 		3BD925141CE37892009AD424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD925131CE37892009AD424 /* Assets.xcassets */; };
@@ -47,6 +50,11 @@
 		3B1C5B3C1CE56E32008F1623 /* SsMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsMessageController.m; sourceTree = "<group>"; };
 		3B3F1C171CE620FA00145725 /* SsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsNavigationController.h; sourceTree = "<group>"; };
 		3B3F1C181CE620FA00145725 /* SsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsNavigationController.m; sourceTree = "<group>"; };
+		3B730B911CEDBC88008D7721 /* SsHomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsHomePageController.h; sourceTree = "<group>"; };
+		3B730B921CEDBC88008D7721 /* SsHomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsHomePageController.m; sourceTree = "<group>"; };
+		3B730B9C1CEEA2E6008D7721 /* SsOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsOrderViewController.h; sourceTree = "<group>"; };
+		3B730B9D1CEEA2E6008D7721 /* SsOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsOrderViewController.m; sourceTree = "<group>"; };
+		3B730B9E1CEEA2E6008D7721 /* SsOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SsOrderViewController.xib; sourceTree = "<group>"; };
 		3BD925041CE37892009AD424 /* SusongTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SusongTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD925081CE37892009AD424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3BD925111CE37892009AD424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -200,6 +208,66 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		3B730B8A1CEDBC3A008D7721 /* HomePage(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				3B730B8B1CEDBC3A008D7721 /* Controller */,
+				3B730B911CEDBC88008D7721 /* SsHomePageController.h */,
+				3B730B921CEDBC88008D7721 /* SsHomePageController.m */,
+				3B730B8C1CEDBC3A008D7721 /* Model */,
+				3B730B8D1CEDBC3A008D7721 /* Other */,
+				3B730B8E1CEDBC3A008D7721 /* View */,
+				3B730B8F1CEDBC3A008D7721 /* 发单 */,
+			);
+			path = "HomePage(首页)";
+			sourceTree = "<group>";
+		};
+		3B730B8B1CEDBC3A008D7721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B730B8C1CEDBC3A008D7721 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B730B8D1CEDBC3A008D7721 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3B730B8E1CEDBC3A008D7721 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B730B8F1CEDBC3A008D7721 /* 发单 */ = {
+			isa = PBXGroup;
+			children = (
+				3B730B901CEDBC3A008D7721 /* Controller */,
+			);
+			path = "发单";
+			sourceTree = "<group>";
+		};
+		3B730B901CEDBC3A008D7721 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B730B9C1CEEA2E6008D7721 /* SsOrderViewController.h */,
+				3B730B9D1CEEA2E6008D7721 /* SsOrderViewController.m */,
+				3B730B9E1CEEA2E6008D7721 /* SsOrderViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		3BD924FB1CE37892009AD424 = {
 			isa = PBXGroup;
 			children = (
@@ -226,9 +294,10 @@
 			isa = PBXGroup;
 			children = (
 				3BD9254C1CE381F8009AD424 /* Main(主要) */,
-				3B730B7F1CEDBBC6008D7721 /* Common(通用) */,
+				3B730B8A1CEDBC3A008D7721 /* HomePage(首页) */,
 				3B730B801CEDBBC6008D7721 /* Order(抢单) */,
 				3B730B851CEDBBC6008D7721 /* Personal(个人中心) */,
+				3B730B7F1CEDBBC6008D7721 /* Common(通用) */,
 				3BD925071CE37892009AD424 /* Supporting Files */,
 			);
 			path = SusongTest;
@@ -395,7 +464,6 @@
 				TargetAttributes = {
 					3BD925031CE37892009AD424 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = YTCM9PCBH4;
 					};
 					3BD9251C1CE37892009AD424 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -432,6 +500,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B730BA01CEEA2E6008D7721 /* SsOrderViewController.xib in Resources */,
 				3BD925141CE37892009AD424 /* Assets.xcassets in Resources */,
 				3BD925121CE37892009AD424 /* Main.storyboard in Resources */,
 			);
@@ -507,8 +576,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BD925561CE38400009AD424 /* SsTabBarController.m in Sources */,
+				3B730B9F1CEEA2E6008D7721 /* SsOrderViewController.m in Sources */,
 				3BD9255C1CE38538009AD424 /* SsTabbarButton.m in Sources */,
 				3BD925091CE37892009AD424 /* main.m in Sources */,
+				3B730B931CEDBC88008D7721 /* SsHomePageController.m in Sources */,
 				3B01D14B1CEAF22E00380B7F /* MJBannnerPlayer.m in Sources */,
 				3BD925531CE381F8009AD424 /* AppDelegate.m in Sources */,
 				3BD925591CE38455009AD424 /* SsTabBar.m in Sources */,
@@ -650,15 +721,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SusongTest/SusongTest-pch.h";
 				INFOPLIST_FILE = SusongTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = s.SusongTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;

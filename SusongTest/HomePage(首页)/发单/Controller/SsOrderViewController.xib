@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SsOrderViewController">
+            <connections>
+                <outlet property="PostBtn" destination="IcZ-H4-G7E" id="ZKV-AW-MJt"/>
+                <outlet property="scrollView" destination="7MP-Hg-Fck" id="ICw-TA-b7O"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7MP-Hg-Fck">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="500"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bri-Nt-WrR">
+                            <rect key="frame" x="20" y="163" width="280" height="128"/>
+                            <color key="backgroundColor" red="1" green="0.62745098040000002" blue="0.015686274510000001" alpha="1" colorSpace="deviceRGB"/>
+                        </view>
+                        <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="aMh-pp-5mK">
+                            <rect key="frame" x="20" y="20" width="280" height="128"/>
+                            <color key="backgroundColor" red="0.3823562714" green="0.3656464774" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="128" id="eG0-a8-f7E"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sIC-7z-Loh">
+                            <rect key="frame" x="20" y="306" width="280" height="128"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcZ-H4-G7E">
+                            <rect key="frame" x="20" y="584" width="280" height="40"/>
+                            <color key="backgroundColor" red="0.97647058819999999" green="0.63137254899999995" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="EU1-iz-p2a"/>
+                            </constraints>
+                            <state key="normal" title="立即发布"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="sIC-7z-Loh" firstAttribute="centerX" secondItem="7MP-Hg-Fck" secondAttribute="centerX" id="4LA-lc-WYd"/>
+                        <constraint firstItem="bri-Nt-WrR" firstAttribute="top" secondItem="aMh-pp-5mK" secondAttribute="bottom" constant="15" id="6V8-5I-Y4W"/>
+                        <constraint firstItem="bri-Nt-WrR" firstAttribute="centerX" secondItem="7MP-Hg-Fck" secondAttribute="centerX" id="9ea-Bn-h0R"/>
+                        <constraint firstAttribute="trailing" secondItem="aMh-pp-5mK" secondAttribute="trailing" constant="20" id="9k4-mV-MeV"/>
+                        <constraint firstItem="sIC-7z-Loh" firstAttribute="width" secondItem="bri-Nt-WrR" secondAttribute="width" id="Dxo-Dg-7Eg"/>
+                        <constraint firstItem="bri-Nt-WrR" firstAttribute="height" secondItem="aMh-pp-5mK" secondAttribute="height" id="GQz-rc-Jib"/>
+                        <constraint firstItem="aMh-pp-5mK" firstAttribute="centerX" secondItem="7MP-Hg-Fck" secondAttribute="centerX" id="IWe-MR-35G"/>
+                        <constraint firstItem="aMh-pp-5mK" firstAttribute="leading" secondItem="7MP-Hg-Fck" secondAttribute="leading" constant="20" id="JVp-qv-aZw"/>
+                        <constraint firstItem="sIC-7z-Loh" firstAttribute="height" secondItem="bri-Nt-WrR" secondAttribute="height" id="KU7-Cj-fAy"/>
+                        <constraint firstAttribute="bottom" secondItem="aMh-pp-5mK" secondAttribute="bottom" constant="315" id="U1O-lh-oNG"/>
+                        <constraint firstItem="bri-Nt-WrR" firstAttribute="width" secondItem="aMh-pp-5mK" secondAttribute="width" id="ea6-r9-AWY"/>
+                        <constraint firstItem="IcZ-H4-G7E" firstAttribute="width" secondItem="sIC-7z-Loh" secondAttribute="width" id="ee3-9s-nRu"/>
+                        <constraint firstItem="sIC-7z-Loh" firstAttribute="top" secondItem="bri-Nt-WrR" secondAttribute="bottom" constant="15" id="gLv-2c-DRH"/>
+                        <constraint firstAttribute="height" constant="500" id="nNA-Xe-rZa"/>
+                        <constraint firstItem="aMh-pp-5mK" firstAttribute="top" secondItem="7MP-Hg-Fck" secondAttribute="top" constant="20" id="p3o-Ps-SHp"/>
+                        <constraint firstItem="IcZ-H4-G7E" firstAttribute="centerX" secondItem="7MP-Hg-Fck" secondAttribute="centerX" id="sye-KO-OFf"/>
+                        <constraint firstItem="IcZ-H4-G7E" firstAttribute="top" secondItem="sIC-7z-Loh" secondAttribute="bottom" constant="150" id="wgI-S6-RZX"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7MP-Hg-Fck" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Gf9-bD-q4e"/>
+                <constraint firstAttribute="trailing" secondItem="7MP-Hg-Fck" secondAttribute="trailing" id="fji-9x-5v4"/>
+                <constraint firstItem="7MP-Hg-Fck" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hSh-dJ-h3w"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="245" y="308"/>
+        </view>
+    </objects>
+</document>
