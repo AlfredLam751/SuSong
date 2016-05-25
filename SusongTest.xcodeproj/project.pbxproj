@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3B01D14B1CEAF22E00380B7F /* MJBannnerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B01D14A1CEAF22E00380B7F /* MJBannnerPlayer.m */; };
+		3B168AA81CF53569007733E3 /* SsSaveDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B168AA71CF53569007733E3 /* SsSaveDataTool.m */; };
+		3B168AB01CF599DC007733E3 /* LHNewFeatureController.h.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B168AAF1CF599DC007733E3 /* LHNewFeatureController.h.m */; };
 		3B1C5B3D1CE56E32008F1623 /* SsMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C5B3C1CE56E32008F1623 /* SsMessageController.m */; };
 		3B3F1C191CE620FA00145725 /* SsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F1C181CE620FA00145725 /* SsNavigationController.m */; };
 		3B730B931CEDBC88008D7721 /* SsHomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B730B921CEDBC88008D7721 /* SsHomePageController.m */; };
@@ -46,6 +48,10 @@
 		3B01D1491CEAF22E00380B7F /* MJBannnerPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJBannnerPlayer.h; sourceTree = "<group>"; };
 		3B01D14A1CEAF22E00380B7F /* MJBannnerPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJBannnerPlayer.m; sourceTree = "<group>"; };
 		3B01D14D1CEB302300380B7F /* SusongTest-pch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SusongTest-pch.h"; sourceTree = "<group>"; };
+		3B168AA61CF53569007733E3 /* SsSaveDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsSaveDataTool.h; sourceTree = "<group>"; };
+		3B168AA71CF53569007733E3 /* SsSaveDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsSaveDataTool.m; sourceTree = "<group>"; };
+		3B168AAE1CF599DC007733E3 /* LHNewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHNewFeatureController.h; sourceTree = "<group>"; };
+		3B168AAF1CF599DC007733E3 /* LHNewFeatureController.h.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHNewFeatureController.h.m; sourceTree = "<group>"; };
 		3B1C5B3B1CE56E32008F1623 /* SsMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsMessageController.h; sourceTree = "<group>"; };
 		3B1C5B3C1CE56E32008F1623 /* SsMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsMessageController.m; sourceTree = "<group>"; };
 		3B3F1C171CE620FA00145725 /* SsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsNavigationController.h; sourceTree = "<group>"; };
@@ -123,9 +129,28 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		3B168AA91CF53842007733E3 /* NewFeature(版本新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				3B168AAA1CF53842007733E3 /* Controller */,
+			);
+			path = "NewFeature(版本新特性)";
+			sourceTree = "<group>";
+		};
+		3B168AAA1CF53842007733E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B168AAE1CF599DC007733E3 /* LHNewFeatureController.h */,
+				3B168AAF1CF599DC007733E3 /* LHNewFeatureController.h.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		3B730B7F1CEDBBC6008D7721 /* Common(通用) */ = {
 			isa = PBXGroup;
 			children = (
+				3B168AA61CF53569007733E3 /* SsSaveDataTool.h */,
+				3B168AA71CF53569007733E3 /* SsSaveDataTool.m */,
 			);
 			path = "Common(通用)";
 			sourceTree = "<group>";
@@ -294,6 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				3BD9254C1CE381F8009AD424 /* Main(主要) */,
+				3B168AA91CF53842007733E3 /* NewFeature(版本新特性) */,
 				3B730B8A1CEDBC3A008D7721 /* HomePage(首页) */,
 				3B730B801CEDBBC6008D7721 /* Order(抢单) */,
 				3B730B851CEDBBC6008D7721 /* Personal(个人中心) */,
@@ -583,7 +609,9 @@
 				3B01D14B1CEAF22E00380B7F /* MJBannnerPlayer.m in Sources */,
 				3BD925531CE381F8009AD424 /* AppDelegate.m in Sources */,
 				3BD925591CE38455009AD424 /* SsTabBar.m in Sources */,
+				3B168AA81CF53569007733E3 /* SsSaveDataTool.m in Sources */,
 				3B3F1C191CE620FA00145725 /* SsNavigationController.m in Sources */,
+				3B168AB01CF599DC007733E3 /* LHNewFeatureController.h.m in Sources */,
 				3B1C5B3D1CE56E32008F1623 /* SsMessageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
