@@ -23,7 +23,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TzC-Du-pV6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-667.20000000000005" y="522.55999999999995"/>
+            <point key="canvasLocation" x="-667.20000000000005" y="522.55999999999983"/>
         </scene>
         <!--Item-->
         <scene sceneID="Q9H-dL-TBR">
@@ -138,35 +138,6 @@
             </objects>
             <point key="canvasLocation" x="583" y="575"/>
         </scene>
-        <!--个人中心-->
-        <scene sceneID="qPn-0L-dFW">
-            <objects>
-                <tableViewController id="c0a-Oa-aVk" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="CWJ-AX-U5K">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="wcC-ez-d63">
-                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wcC-ez-d63" id="LBB-lb-dl9">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="c0a-Oa-aVk" id="ZWw-e2-Ddd"/>
-                            <outlet property="delegate" destination="c0a-Oa-aVk" id="5b7-AU-jgE"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="个人中心" id="PjO-Vu-Fba"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0kd-yL-WO4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="672" y="1363.2"/>
-        </scene>
         <!--Item-->
         <scene sceneID="ap9-FD-LGB">
             <objects>
@@ -177,12 +148,41 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="c0a-Oa-aVk" kind="relationship" relationship="rootViewController" id="1C1-Kr-jVv"/>
+                        <segue destination="Lbt-2C-szo" kind="relationship" relationship="rootViewController" id="ky0-CD-6zA"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ba-iB-2gI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="234.66666666666666" y="1363.2"/>
+        </scene>
+        <!--人中心-->
+        <scene sceneID="NTE-BO-JD9">
+            <objects>
+                <tableViewController id="Lbt-2C-szo" customClass="SsPersonalController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="Tm4-cB-XKN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Ejo-gk-Oi5">
+                                <rect key="frame" x="0.0" y="113.5" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ejo-gk-Oi5" id="Eo5-eO-Vvx">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Lbt-2C-szo" id="Ho1-MK-weg"/>
+                            <outlet property="delegate" destination="Lbt-2C-szo" id="w9Y-VB-WGC"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="人中心" id="IE1-e2-2Id"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZHZ-ca-Udh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="597" y="1361"/>
         </scene>
         <!--Item-->
         <scene sceneID="OAf-ai-k87">

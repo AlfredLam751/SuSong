@@ -10,11 +10,21 @@
 		3B01D14B1CEAF22E00380B7F /* MJBannnerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B01D14A1CEAF22E00380B7F /* MJBannnerPlayer.m */; };
 		3B168AA81CF53569007733E3 /* SsSaveDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B168AA71CF53569007733E3 /* SsSaveDataTool.m */; };
 		3B168AB01CF599DC007733E3 /* LHNewFeatureController.h.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B168AAF1CF599DC007733E3 /* LHNewFeatureController.h.m */; };
+		3B168B771CF85329007733E3 /* SsPersonalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B168B761CF85329007733E3 /* SsPersonalController.m */; };
+		3B168B7A1CF85ECC007733E3 /* SsSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B168B791CF85ECC007733E3 /* SsSettingViewController.m */; };
 		3B1C5B3D1CE56E32008F1623 /* SsMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C5B3C1CE56E32008F1623 /* SsMessageController.m */; };
 		3B3F1C191CE620FA00145725 /* SsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F1C181CE620FA00145725 /* SsNavigationController.m */; };
 		3B730B931CEDBC88008D7721 /* SsHomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B730B921CEDBC88008D7721 /* SsHomePageController.m */; };
 		3B730B9F1CEEA2E6008D7721 /* SsOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B730B9D1CEEA2E6008D7721 /* SsOrderViewController.m */; };
 		3B730BA01CEEA2E6008D7721 /* SsOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B730B9E1CEEA2E6008D7721 /* SsOrderViewController.xib */; };
+		3B86F2151CFC132A008E9E62 /* SsPersonalHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B86F2141CFC132A008E9E62 /* SsPersonalHeaderView.xib */; };
+		3B86F2211CFD23B4008E9E62 /* SsPersonalGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F2201CFD23B4008E9E62 /* SsPersonalGroup.m */; };
+		3B86F2241CFD23D5008E9E62 /* SsPersonalItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F2231CFD23D5008E9E62 /* SsPersonalItem.m */; };
+		3B86F2271CFD2480008E9E62 /* SsPersonalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F2261CFD2480008E9E62 /* SsPersonalCell.m */; };
+		3B86F22A1CFD310D008E9E62 /* SsPersonalItemArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F2291CFD310D008E9E62 /* SsPersonalItemArrow.m */; };
+		3B86F22D1CFD311B008E9E62 /* SsPersonalItemSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F22C1CFD311B008E9E62 /* SsPersonalItemSwitch.m */; };
+		3B86F2301CFD6337008E9E62 /* SsTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F22F1CFD6337008E9E62 /* SsTestViewController.m */; };
+		3B86F2331CFD8065008E9E62 /* SsBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F2321CFD8065008E9E62 /* SsBaseTableViewController.m */; };
 		3BD925091CE37892009AD424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD925081CE37892009AD424 /* main.m */; };
 		3BD925121CE37892009AD424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD925101CE37892009AD424 /* Main.storyboard */; };
 		3BD925141CE37892009AD424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD925131CE37892009AD424 /* Assets.xcassets */; };
@@ -52,6 +62,10 @@
 		3B168AA71CF53569007733E3 /* SsSaveDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsSaveDataTool.m; sourceTree = "<group>"; };
 		3B168AAE1CF599DC007733E3 /* LHNewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHNewFeatureController.h; sourceTree = "<group>"; };
 		3B168AAF1CF599DC007733E3 /* LHNewFeatureController.h.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHNewFeatureController.h.m; sourceTree = "<group>"; };
+		3B168B751CF85329007733E3 /* SsPersonalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsPersonalController.h; sourceTree = "<group>"; };
+		3B168B761CF85329007733E3 /* SsPersonalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsPersonalController.m; sourceTree = "<group>"; };
+		3B168B781CF85ECC007733E3 /* SsSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsSettingViewController.h; sourceTree = "<group>"; };
+		3B168B791CF85ECC007733E3 /* SsSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsSettingViewController.m; sourceTree = "<group>"; };
 		3B1C5B3B1CE56E32008F1623 /* SsMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsMessageController.h; sourceTree = "<group>"; };
 		3B1C5B3C1CE56E32008F1623 /* SsMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsMessageController.m; sourceTree = "<group>"; };
 		3B3F1C171CE620FA00145725 /* SsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsNavigationController.h; sourceTree = "<group>"; };
@@ -61,6 +75,21 @@
 		3B730B9C1CEEA2E6008D7721 /* SsOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsOrderViewController.h; sourceTree = "<group>"; };
 		3B730B9D1CEEA2E6008D7721 /* SsOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsOrderViewController.m; sourceTree = "<group>"; };
 		3B730B9E1CEEA2E6008D7721 /* SsOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SsOrderViewController.xib; sourceTree = "<group>"; };
+		3B86F2141CFC132A008E9E62 /* SsPersonalHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SsPersonalHeaderView.xib; sourceTree = "<group>"; };
+		3B86F21F1CFD23B4008E9E62 /* SsPersonalGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsPersonalGroup.h; sourceTree = "<group>"; };
+		3B86F2201CFD23B4008E9E62 /* SsPersonalGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsPersonalGroup.m; sourceTree = "<group>"; };
+		3B86F2221CFD23D5008E9E62 /* SsPersonalItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsPersonalItem.h; sourceTree = "<group>"; };
+		3B86F2231CFD23D5008E9E62 /* SsPersonalItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsPersonalItem.m; sourceTree = "<group>"; };
+		3B86F2251CFD2480008E9E62 /* SsPersonalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsPersonalCell.h; sourceTree = "<group>"; };
+		3B86F2261CFD2480008E9E62 /* SsPersonalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsPersonalCell.m; sourceTree = "<group>"; };
+		3B86F2281CFD310D008E9E62 /* SsPersonalItemArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsPersonalItemArrow.h; sourceTree = "<group>"; };
+		3B86F2291CFD310D008E9E62 /* SsPersonalItemArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsPersonalItemArrow.m; sourceTree = "<group>"; };
+		3B86F22B1CFD311B008E9E62 /* SsPersonalItemSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsPersonalItemSwitch.h; sourceTree = "<group>"; };
+		3B86F22C1CFD311B008E9E62 /* SsPersonalItemSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsPersonalItemSwitch.m; sourceTree = "<group>"; };
+		3B86F22E1CFD6337008E9E62 /* SsTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsTestViewController.h; sourceTree = "<group>"; };
+		3B86F22F1CFD6337008E9E62 /* SsTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsTestViewController.m; sourceTree = "<group>"; };
+		3B86F2311CFD8065008E9E62 /* SsBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsBaseTableViewController.h; sourceTree = "<group>"; };
+		3B86F2321CFD8065008E9E62 /* SsBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsBaseTableViewController.m; sourceTree = "<group>"; };
 		3BD925041CE37892009AD424 /* SusongTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SusongTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD925081CE37892009AD424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3BD925111CE37892009AD424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -208,6 +237,14 @@
 		3B730B861CEDBBC6008D7721 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3B168B751CF85329007733E3 /* SsPersonalController.h */,
+				3B168B761CF85329007733E3 /* SsPersonalController.m */,
+				3B168B781CF85ECC007733E3 /* SsSettingViewController.h */,
+				3B168B791CF85ECC007733E3 /* SsSettingViewController.m */,
+				3B86F22E1CFD6337008E9E62 /* SsTestViewController.h */,
+				3B86F22F1CFD6337008E9E62 /* SsTestViewController.m */,
+				3B86F2311CFD8065008E9E62 /* SsBaseTableViewController.h */,
+				3B86F2321CFD8065008E9E62 /* SsBaseTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -215,6 +252,14 @@
 		3B730B871CEDBBC6008D7721 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3B86F21F1CFD23B4008E9E62 /* SsPersonalGroup.h */,
+				3B86F2201CFD23B4008E9E62 /* SsPersonalGroup.m */,
+				3B86F2221CFD23D5008E9E62 /* SsPersonalItem.h */,
+				3B86F2231CFD23D5008E9E62 /* SsPersonalItem.m */,
+				3B86F2281CFD310D008E9E62 /* SsPersonalItemArrow.h */,
+				3B86F2291CFD310D008E9E62 /* SsPersonalItemArrow.m */,
+				3B86F22B1CFD311B008E9E62 /* SsPersonalItemSwitch.h */,
+				3B86F22C1CFD311B008E9E62 /* SsPersonalItemSwitch.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -229,6 +274,9 @@
 		3B730B891CEDBBC6008D7721 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3B86F2141CFC132A008E9E62 /* SsPersonalHeaderView.xib */,
+				3B86F2251CFD2480008E9E62 /* SsPersonalCell.h */,
+				3B86F2261CFD2480008E9E62 /* SsPersonalCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -529,6 +577,7 @@
 				3B730BA01CEEA2E6008D7721 /* SsOrderViewController.xib in Resources */,
 				3BD925141CE37892009AD424 /* Assets.xcassets in Resources */,
 				3BD925121CE37892009AD424 /* Main.storyboard in Resources */,
+				3B86F2151CFC132A008E9E62 /* SsPersonalHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,17 +650,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B86F2331CFD8065008E9E62 /* SsBaseTableViewController.m in Sources */,
+				3B168B771CF85329007733E3 /* SsPersonalController.m in Sources */,
+				3B86F2271CFD2480008E9E62 /* SsPersonalCell.m in Sources */,
+				3B86F2301CFD6337008E9E62 /* SsTestViewController.m in Sources */,
 				3BD925561CE38400009AD424 /* SsTabBarController.m in Sources */,
 				3B730B9F1CEEA2E6008D7721 /* SsOrderViewController.m in Sources */,
 				3BD9255C1CE38538009AD424 /* SsTabbarButton.m in Sources */,
+				3B86F2241CFD23D5008E9E62 /* SsPersonalItem.m in Sources */,
 				3BD925091CE37892009AD424 /* main.m in Sources */,
 				3B730B931CEDBC88008D7721 /* SsHomePageController.m in Sources */,
 				3B01D14B1CEAF22E00380B7F /* MJBannnerPlayer.m in Sources */,
+				3B168B7A1CF85ECC007733E3 /* SsSettingViewController.m in Sources */,
 				3BD925531CE381F8009AD424 /* AppDelegate.m in Sources */,
 				3BD925591CE38455009AD424 /* SsTabBar.m in Sources */,
 				3B168AA81CF53569007733E3 /* SsSaveDataTool.m in Sources */,
 				3B3F1C191CE620FA00145725 /* SsNavigationController.m in Sources */,
+				3B86F2211CFD23B4008E9E62 /* SsPersonalGroup.m in Sources */,
+				3B86F22D1CFD311B008E9E62 /* SsPersonalItemSwitch.m in Sources */,
 				3B168AB01CF599DC007733E3 /* LHNewFeatureController.h.m in Sources */,
+				3B86F22A1CFD310D008E9E62 /* SsPersonalItemArrow.m in Sources */,
 				3B1C5B3D1CE56E32008F1623 /* SsMessageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

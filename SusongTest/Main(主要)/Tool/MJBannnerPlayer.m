@@ -213,7 +213,7 @@
     totalPage.textAlignment = NSTextAlignmentCenter;
     totalPage.font = [UIFont boldSystemFontOfSize:12.f / 375 * [UIScreen mainScreen].bounds.size.width];
     totalPage.textColor = [UIColor whiteColor];
-    totalPage.text = [NSString stringWithFormat:@"of %ld",totalPageNumber];
+    totalPage.text = [NSString stringWithFormat:@"of %ld",(unsigned long)totalPageNumber];
     totalPage.backgroundColor = [UIColor clearColor];
     [self addSubview:totalPage];
     
@@ -289,7 +289,7 @@
 -(void)animationDidStart:(CAAnimation *)anim{
 
     UILabel *index = (UILabel *)[self viewWithTag:99];
-    index.text = [NSString stringWithFormat:@"%ld",self.index + 1];
+    index.text = [NSString stringWithFormat:@"%u",self.index + 1];
 
 }
 
