@@ -10,4 +10,14 @@
 
 @implementation SsPersonalItemSwitch
 
+-(void)setName:(NSString *)name{
+    self.isOn = [SsSaveDataTool boolForKey:name];
+    [super setName:name];
+}
+
+-(void)setIsOn:(BOOL)isOn{
+    _isOn = isOn;
+    [SsSaveDataTool saveBool:_isOn forKey:self.name];
+}
+
 @end

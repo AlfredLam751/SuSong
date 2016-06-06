@@ -47,7 +47,8 @@
     //第三组
     SsPersonalItem *item31 = [SsPersonalItemArrow itemWithName:@"账单明细" withIconName:@"hk_icon6_bill" withClassName:[SsTestViewController class]];
     SsPersonalItem *item32 = [SsPersonalItemArrow itemWithName:@"关于我们" withIconName:@"hk_icon7_we" withClassName:[SsTestViewController class]];
-    SsPersonalGroup *group3 = [SsPersonalGroup groupWithItems:@[item31,item32]];
+    SsPersonalItem *item33 = [SsPersonalItemLabel itemWithName:@"测试cell" withIconName:@"hk_icon7_we" withLabelText:@"测试"];
+    SsPersonalGroup *group3 = [SsPersonalGroup groupWithItems:@[item31,item32,item33]];
     
     [self.groups addObject:group1];
     [self.groups addObject:group2];

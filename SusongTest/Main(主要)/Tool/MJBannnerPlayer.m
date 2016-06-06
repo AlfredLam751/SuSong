@@ -289,7 +289,7 @@
 -(void)animationDidStart:(CAAnimation *)anim{
 
     UILabel *index = (UILabel *)[self viewWithTag:99];
-    index.text = [NSString stringWithFormat:@"%u",self.index + 1];
+    index.text = [NSString stringWithFormat:@"%lu",self.index + 1];
 
 }
 

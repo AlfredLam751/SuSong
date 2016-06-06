@@ -25,6 +25,7 @@
 		3B86F22D1CFD311B008E9E62 /* SsPersonalItemSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F22C1CFD311B008E9E62 /* SsPersonalItemSwitch.m */; };
 		3B86F2301CFD6337008E9E62 /* SsTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F22F1CFD6337008E9E62 /* SsTestViewController.m */; };
 		3B86F2331CFD8065008E9E62 /* SsBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F2321CFD8065008E9E62 /* SsBaseTableViewController.m */; };
+		3B983E8F1CFEDE9200F6C35B /* SsPersonalItemLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B983E8E1CFEDE9200F6C35B /* SsPersonalItemLabel.m */; };
 		3BD925091CE37892009AD424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD925081CE37892009AD424 /* main.m */; };
 		3BD925121CE37892009AD424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD925101CE37892009AD424 /* Main.storyboard */; };
 		3BD925141CE37892009AD424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD925131CE37892009AD424 /* Assets.xcassets */; };
@@ -90,6 +91,8 @@
 		3B86F22F1CFD6337008E9E62 /* SsTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsTestViewController.m; sourceTree = "<group>"; };
 		3B86F2311CFD8065008E9E62 /* SsBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsBaseTableViewController.h; sourceTree = "<group>"; };
 		3B86F2321CFD8065008E9E62 /* SsBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsBaseTableViewController.m; sourceTree = "<group>"; };
+		3B983E8D1CFEDE9200F6C35B /* SsPersonalItemLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsPersonalItemLabel.h; sourceTree = "<group>"; };
+		3B983E8E1CFEDE9200F6C35B /* SsPersonalItemLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsPersonalItemLabel.m; sourceTree = "<group>"; };
 		3BD925041CE37892009AD424 /* SusongTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SusongTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD925081CE37892009AD424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3BD925111CE37892009AD424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -260,6 +263,8 @@
 				3B86F2291CFD310D008E9E62 /* SsPersonalItemArrow.m */,
 				3B86F22B1CFD311B008E9E62 /* SsPersonalItemSwitch.h */,
 				3B86F22C1CFD311B008E9E62 /* SsPersonalItemSwitch.m */,
+				3B983E8D1CFEDE9200F6C35B /* SsPersonalItemLabel.h */,
+				3B983E8E1CFEDE9200F6C35B /* SsPersonalItemLabel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -669,6 +674,7 @@
 				3B86F2211CFD23B4008E9E62 /* SsPersonalGroup.m in Sources */,
 				3B86F22D1CFD311B008E9E62 /* SsPersonalItemSwitch.m in Sources */,
 				3B168AB01CF599DC007733E3 /* LHNewFeatureController.h.m in Sources */,
+				3B983E8F1CFEDE9200F6C35B /* SsPersonalItemLabel.m in Sources */,
 				3B86F22A1CFD310D008E9E62 /* SsPersonalItemArrow.m in Sources */,
 				3B1C5B3D1CE56E32008F1623 /* SsMessageController.m in Sources */,
 			);

@@ -10,4 +10,6 @@
 
 @interface SsPersonalItemSwitch : SsPersonalItem
 
+@property (nonatomic, assign) BOOL isOn;
+
 @end

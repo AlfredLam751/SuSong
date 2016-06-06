@@ -9,6 +9,8 @@
 #ifndef SusongTest_pch_h
 #define SusongTest_pch_h
 
+#import "SsSaveDataTool.h"
+
 /**
  *  常用宏
  */

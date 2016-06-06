@@ -12,6 +12,7 @@
 #import "SsPersonalItem.h"
 #import "SsPersonalItemArrow.h"
 #import "SsPersonalItemSwitch.h"
+#import "SsPersonalItemLabel.h"
 
 @interface SsBaseTableViewController : UITableViewController
 @property (nonatomic, strong, readonly) NSMutableArray *groups;

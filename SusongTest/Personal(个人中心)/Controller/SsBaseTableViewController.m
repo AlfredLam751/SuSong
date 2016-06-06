@@ -33,6 +33,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //隐藏分割线
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.sectionHeaderHeight = 0;
 }
 
@@ -47,6 +49,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     SsPersonalGroup *group = self.groups[section];
+    
     return group.items.count;
 }
 
@@ -55,10 +58,14 @@
     SsPersonalGroup *group = self.groups[indexPath.section];
     SsPersonalItem *item = group.items[indexPath.row];
     cell.item = item;
+//    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    //判断是否是最后一行然后隐藏
+    cell.hidenLine = (indexPath.row == group.items.count -1);
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
     
     SsPersonalGroup *group = self.groups[indexPath.section];
     SsPersonalItem *item = group.items[indexPath.row];
