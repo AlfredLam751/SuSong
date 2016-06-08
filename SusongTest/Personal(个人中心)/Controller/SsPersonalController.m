@@ -34,7 +34,7 @@
 -(void)prepareUI{
 
     
-    self.tableView.tableHeaderView = [[[NSBundle mainBundle] loadNibNamed:@"SsPersonalHeaderView" owner:nil options:nil] lastObject];
+//    self.tableView.tableHeaderView = [[[NSBundle mainBundle] loadNibNamed:@"SsPersonalHeaderView" owner:nil options:nil] lastObject];
     
     //第一组
     SsPersonalItem *item11 = [SsPersonalItemSwitch itemWithName:@"申请成为速送员" withIconName:@"hk_icon1_send"];

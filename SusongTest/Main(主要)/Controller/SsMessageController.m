@@ -28,17 +28,21 @@
     
     UIBarButtonItem *cleanItem = [[UIBarButtonItem alloc] initWithTitle:@"清空" style:UIBarButtonItemStylePlain target:self action:@selector(cleanMessage)];
     self.navigationItem.rightBarButtonItem = cleanItem;
-//    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] init];
-//     [backItem setImage:[UIImage imageNamed:@"hk_back_white"]];
-//    
-//    self.navigationItem.leftBarButtonItem = backItem;
-//    
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] init];
+
+    UIBarButtonItem *leftBtn = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"hk_back_white"] style:UIBarButtonItemStylePlain target:self action:@selector(backView)];
+    self.navigationItem.leftBarButtonItem = leftBtn;
     
 }
+
+
 
 -(void)cleanMessage{
  
     NSLog(@"正在清空");
+}
+-(void)backView{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3B01D14B1CEAF22E00380B7F /* MJBannnerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B01D14A1CEAF22E00380B7F /* MJBannnerPlayer.m */; };
+		3B0B58901D06C62100C89440 /* SsPersonalViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0B588F1D06C62100C89440 /* SsPersonalViewControllerTwo.m */; };
 		3B168AA81CF53569007733E3 /* SsSaveDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B168AA71CF53569007733E3 /* SsSaveDataTool.m */; };
 		3B168AB01CF599DC007733E3 /* LHNewFeatureController.h.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B168AAF1CF599DC007733E3 /* LHNewFeatureController.h.m */; };
 		3B168B771CF85329007733E3 /* SsPersonalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B168B761CF85329007733E3 /* SsPersonalController.m */; };
@@ -17,7 +18,6 @@
 		3B730B931CEDBC88008D7721 /* SsHomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B730B921CEDBC88008D7721 /* SsHomePageController.m */; };
 		3B730B9F1CEEA2E6008D7721 /* SsOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B730B9D1CEEA2E6008D7721 /* SsOrderViewController.m */; };
 		3B730BA01CEEA2E6008D7721 /* SsOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B730B9E1CEEA2E6008D7721 /* SsOrderViewController.xib */; };
-		3B86F2151CFC132A008E9E62 /* SsPersonalHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B86F2141CFC132A008E9E62 /* SsPersonalHeaderView.xib */; };
 		3B86F2211CFD23B4008E9E62 /* SsPersonalGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F2201CFD23B4008E9E62 /* SsPersonalGroup.m */; };
 		3B86F2241CFD23D5008E9E62 /* SsPersonalItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F2231CFD23D5008E9E62 /* SsPersonalItem.m */; };
 		3B86F2271CFD2480008E9E62 /* SsPersonalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F2261CFD2480008E9E62 /* SsPersonalCell.m */; };
@@ -59,6 +59,8 @@
 		3B01D1491CEAF22E00380B7F /* MJBannnerPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJBannnerPlayer.h; sourceTree = "<group>"; };
 		3B01D14A1CEAF22E00380B7F /* MJBannnerPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJBannnerPlayer.m; sourceTree = "<group>"; };
 		3B01D14D1CEB302300380B7F /* SusongTest-pch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SusongTest-pch.h"; sourceTree = "<group>"; };
+		3B0B588E1D06C62100C89440 /* SsPersonalViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsPersonalViewControllerTwo.h; sourceTree = "<group>"; };
+		3B0B588F1D06C62100C89440 /* SsPersonalViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsPersonalViewControllerTwo.m; sourceTree = "<group>"; };
 		3B168AA61CF53569007733E3 /* SsSaveDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsSaveDataTool.h; sourceTree = "<group>"; };
 		3B168AA71CF53569007733E3 /* SsSaveDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsSaveDataTool.m; sourceTree = "<group>"; };
 		3B168AAE1CF599DC007733E3 /* LHNewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHNewFeatureController.h; sourceTree = "<group>"; };
@@ -76,7 +78,6 @@
 		3B730B9C1CEEA2E6008D7721 /* SsOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsOrderViewController.h; sourceTree = "<group>"; };
 		3B730B9D1CEEA2E6008D7721 /* SsOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsOrderViewController.m; sourceTree = "<group>"; };
 		3B730B9E1CEEA2E6008D7721 /* SsOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SsOrderViewController.xib; sourceTree = "<group>"; };
-		3B86F2141CFC132A008E9E62 /* SsPersonalHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SsPersonalHeaderView.xib; sourceTree = "<group>"; };
 		3B86F21F1CFD23B4008E9E62 /* SsPersonalGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsPersonalGroup.h; sourceTree = "<group>"; };
 		3B86F2201CFD23B4008E9E62 /* SsPersonalGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsPersonalGroup.m; sourceTree = "<group>"; };
 		3B86F2221CFD23D5008E9E62 /* SsPersonalItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsPersonalItem.h; sourceTree = "<group>"; };
@@ -248,6 +249,8 @@
 				3B86F22F1CFD6337008E9E62 /* SsTestViewController.m */,
 				3B86F2311CFD8065008E9E62 /* SsBaseTableViewController.h */,
 				3B86F2321CFD8065008E9E62 /* SsBaseTableViewController.m */,
+				3B0B588E1D06C62100C89440 /* SsPersonalViewControllerTwo.h */,
+				3B0B588F1D06C62100C89440 /* SsPersonalViewControllerTwo.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -279,7 +282,6 @@
 		3B730B891CEDBBC6008D7721 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3B86F2141CFC132A008E9E62 /* SsPersonalHeaderView.xib */,
 				3B86F2251CFD2480008E9E62 /* SsPersonalCell.h */,
 				3B86F2261CFD2480008E9E62 /* SsPersonalCell.m */,
 			);
@@ -582,7 +584,6 @@
 				3B730BA01CEEA2E6008D7721 /* SsOrderViewController.xib in Resources */,
 				3BD925141CE37892009AD424 /* Assets.xcassets in Resources */,
 				3BD925121CE37892009AD424 /* Main.storyboard in Resources */,
-				3B86F2151CFC132A008E9E62 /* SsPersonalHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +660,7 @@
 				3B168B771CF85329007733E3 /* SsPersonalController.m in Sources */,
 				3B86F2271CFD2480008E9E62 /* SsPersonalCell.m in Sources */,
 				3B86F2301CFD6337008E9E62 /* SsTestViewController.m in Sources */,
+				3B0B58901D06C62100C89440 /* SsPersonalViewControllerTwo.m in Sources */,
 				3BD925561CE38400009AD424 /* SsTabBarController.m in Sources */,
 				3B730B9F1CEEA2E6008D7721 /* SsOrderViewController.m in Sources */,
 				3BD9255C1CE38538009AD424 /* SsTabbarButton.m in Sources */,

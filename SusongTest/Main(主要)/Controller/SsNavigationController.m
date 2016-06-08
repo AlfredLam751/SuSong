@@ -19,7 +19,7 @@
         //设置导航栏样式
         UINavigationBar *naviBar = [UINavigationBar appearance];
         [naviBar setBackgroundImage:[UIImage imageNamed:@"hk_bg2"] forBarMetrics:UIBarMetricsDefault];
-        
+        //隐藏文字
         [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60) forBarMetrics:UIBarMetricsDefault];
 
         //设置字体

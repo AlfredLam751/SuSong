@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "SsBaseTableViewController.h"
+
+
 @interface SsPersonalController : SsBaseTableViewController
 
 @end

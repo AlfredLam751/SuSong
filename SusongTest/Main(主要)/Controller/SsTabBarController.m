@@ -13,6 +13,8 @@
 
 @interface SsTabBarController ()
 
+
+
 @end
 
 @implementation SsTabBarController
@@ -40,10 +42,15 @@
     }];
     
     [self.tabBar addSubview:newTabbar];
-    
-    
-    
+
 }
+
+//- (void)viewWillLayoutSubviews{
+//    CGRect tabFrame = self.tabBar.frame; //self.TabBar is IBOutlet of your TabBar
+//    tabFrame.size.height = 99;
+//    tabFrame.origin.y = ScreenHeight - 99;
+//    self.tabBar.frame = tabFrame;
+//}
 
 
 
