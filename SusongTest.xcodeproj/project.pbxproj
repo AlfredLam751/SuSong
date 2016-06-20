@@ -26,6 +26,7 @@
 		3B86F2301CFD6337008E9E62 /* SsTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F22F1CFD6337008E9E62 /* SsTestViewController.m */; };
 		3B86F2331CFD8065008E9E62 /* SsBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86F2321CFD8065008E9E62 /* SsBaseTableViewController.m */; };
 		3B983E8F1CFEDE9200F6C35B /* SsPersonalItemLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B983E8E1CFEDE9200F6C35B /* SsPersonalItemLabel.m */; };
+		3BC46DDD1D11A6D8008A6414 /* UIWindow+SsExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC46DDC1D11A6D8008A6414 /* UIWindow+SsExtension.m */; };
 		3BD925091CE37892009AD424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD925081CE37892009AD424 /* main.m */; };
 		3BD925121CE37892009AD424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD925101CE37892009AD424 /* Main.storyboard */; };
 		3BD925141CE37892009AD424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD925131CE37892009AD424 /* Assets.xcassets */; };
@@ -94,6 +95,8 @@
 		3B86F2321CFD8065008E9E62 /* SsBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsBaseTableViewController.m; sourceTree = "<group>"; };
 		3B983E8D1CFEDE9200F6C35B /* SsPersonalItemLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsPersonalItemLabel.h; sourceTree = "<group>"; };
 		3B983E8E1CFEDE9200F6C35B /* SsPersonalItemLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsPersonalItemLabel.m; sourceTree = "<group>"; };
+		3BC46DDB1D11A6D8008A6414 /* UIWindow+SsExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+SsExtension.h"; sourceTree = "<group>"; };
+		3BC46DDC1D11A6D8008A6414 /* UIWindow+SsExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+SsExtension.m"; sourceTree = "<group>"; };
 		3BD925041CE37892009AD424 /* SusongTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SusongTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD925081CE37892009AD424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3BD925111CE37892009AD424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -184,6 +187,8 @@
 			children = (
 				3B168AA61CF53569007733E3 /* SsSaveDataTool.h */,
 				3B168AA71CF53569007733E3 /* SsSaveDataTool.m */,
+				3BC46DDB1D11A6D8008A6414 /* UIWindow+SsExtension.h */,
+				3BC46DDC1D11A6D8008A6414 /* UIWindow+SsExtension.m */,
 			);
 			path = "Common(通用)";
 			sourceTree = "<group>";
@@ -661,6 +666,7 @@
 				3B86F2271CFD2480008E9E62 /* SsPersonalCell.m in Sources */,
 				3B86F2301CFD6337008E9E62 /* SsTestViewController.m in Sources */,
 				3B0B58901D06C62100C89440 /* SsPersonalViewControllerTwo.m in Sources */,
+				3BC46DDD1D11A6D8008A6414 /* UIWindow+SsExtension.m in Sources */,
 				3BD925561CE38400009AD424 /* SsTabBarController.m in Sources */,
 				3B730B9F1CEEA2E6008D7721 /* SsOrderViewController.m in Sources */,
 				3BD9255C1CE38538009AD424 /* SsTabbarButton.m in Sources */,

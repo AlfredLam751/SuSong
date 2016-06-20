@@ -25,22 +25,13 @@
     
     //获得窗口
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
-    //判断是否是版本新特性
-    NSString *version = @"Version";
-    NSString *oldVersion = [SsSaveDataTool valueForKey:version];
-    NSString *currentVersion = [NSBundle mainBundle].infoDictionary[@"CFBundleVersion"];
-    
-    if ([oldVersion isEqualToString:currentVersion]) {
-        self.window.rootViewController =[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateInitialViewController];
-    }else{
-        LHNewFeatureController *newFeature = [[LHNewFeatureController alloc] init];
-        self.window.backgroundColor = [UIColor whiteColor];
-        self.window.rootViewController = newFeature;
-        [SsSaveDataTool saveValue:currentVersion forKey:version];
-    }
-
     [self.window makeKeyAndVisible];
+    
+    //切换控制器
+    [UIWindow switchRootViewController];
+
+
+
     
     
     return YES;

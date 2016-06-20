@@ -10,6 +10,8 @@
 #define SusongTest_pch_h
 
 #import "SsSaveDataTool.h"
+#import "SVProgressHUD.h"
+#import "UIWindow+SsExtension.h"
 
 /**
  *  常用宏
